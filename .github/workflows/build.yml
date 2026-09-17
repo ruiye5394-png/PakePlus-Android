@@ -26,9 +26,6 @@ jobs:
                   java-version: '17'
                   cache: gradle
 
-            - name: Set up Android SDK
-              uses: android-actions/setup-android@v3
-
             - uses: pnpm/action-setup@v4
               with:
                   version: 10
